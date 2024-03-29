@@ -56,3 +56,31 @@ function formatDuration (seconds) {
   // Complete this function
 }
 ```
+<h4 align="center">
+:construction: Características y descripción del segundo algoritmo: algoritmo_3.js :construction:
+</h4>
+
+- `Funcionalidad 1:`: Se desea un algoritmo de recursión simple donde se necesita conocer en qué momento una opción es mejor que la otra dados tres parámetros.-
+
+Ejemplo de retorno dentro de la función solicitada:
+
+```
+System A : 15 * 3 = 45
+System B : 500 + 15 * 0.90 + (15 * 0.90) * 0.90 + (15 * 0.90 * 0.90) * 0.90 ( = 536.5849999999999, no rounding for each ticket)
+
+movie(500, 15, 0.9) should return 43
+    (with card the total price is 634, with tickets 645)
+movie(100, 10, 0.95) should return 24
+    (with card the total price is 235, with tickets 240)
+
+
+```
+
+Función inicial a modificar:
+
+```
+function movie(card, ticket, perc) {
+    // your code
+};
+```
+
