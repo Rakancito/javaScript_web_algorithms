@@ -57,7 +57,7 @@ function formatDuration (seconds) {
 
 	/*
 		Vamos a recorrer nuestra lista de variables de la siguiente forma:
-			Primero: Observaremos si los segundos que nos brindaron son mayores al primer elemento de nuestras variables, de lo contrario continuaremos con el siguiente elemento de la lista.
+			Primero: Observaremos si los segundos que nos brindaron son mayores al primer elemento de nuestras variables dentro de nuestro diccionario, de lo contrario continuaremos con el siguiente elemento de la lista.
 			Segundo: Dividiremos el valor de nuestro tiempo redondeandolo y lo guardaremos en una variable nueva llamada value.
 			Tercero: Necesitamos ver si la variable value es mayor a uno, en caso de que sea así, simplemente vamos a agregar una s al tiempo para indicar plural y que no solo sea singular, ejemplo: año a años.
 			Cuarto: Necesitamos guardar únicamente el resto de lo que nos queda del tiempo para poder continuar evaluando el tiempo con el resto de los elementos de la lista.
